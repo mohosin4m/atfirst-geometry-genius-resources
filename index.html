@@ -32,7 +32,7 @@
                       </div>
 
                       <div>
-                        <p class="text-2xl">Area: <span id="tringle-area"></span>cm<sup>2</sup><span></span></p>
+                        <p class="text-2xl">Area: <span id="tringle-area">0</span>cm<sup>2</sup><span></span></p>
                       </div>
 
                       <div class="card-actions justify-end">
@@ -48,36 +48,62 @@
                       <p class="text-2xl text-center">Area (A) = w x 1</p>
 
                       <div>
-                        <input class="w-20 text-2xl p-2 rounded-sm" placeholder="w" type="text">
+                        <input id="rectangle-width" class="w-20 text-2xl p-2 rounded-sm" placeholder="w" type="text">
                          <span class="m-2">cm</span>
-                        <input class="w-20 text-2xl p-2 rounded-sm" placeholder="l" type="text">
+                        <input id="rectangle-length" class="w-20 text-2xl p-2 rounded-sm" placeholder="l" type="text">
                         <span class="mr-2">cm</span>
                       </div>
 
+                      <div>
+                        <p class="text-2xl">Area:<span id="rectangle-area">cm<sup>2</sup></span><span></span></p>
+                      </div>
+                      
                       <div class="card-actions justify-end">
                         <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
-                <!-- tringle card -->
+                <!-- Parallelogram card -->
                 <div class="card w-30 bg-base-100 shadow-xl">
                     <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
+                      <h2 class="card-title">Parallelogram</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
-                <!-- tringle card -->
+                <!-- rhombus card -->
                 <div class="card w-30 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
+                      <h2 class="card-title">Rhombus</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- ellipse card -->
+                <div class="card w-30 bg-base-100 shadow-xl">
+                    <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ellipse</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- pentagon card -->
+                <div class="card w-30 bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Pentagon</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>

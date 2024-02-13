@@ -10,7 +10,7 @@
 
 
 function calculateTriangleArea(){
-    // get triangle vase value
+    // get triangle base value
     const triangleBaseInput = document.getElementById('triangle-base')
     const triangaleBaseText =triangleBaseInput.value;
     const base = parseFloat(triangaleBaseText)
